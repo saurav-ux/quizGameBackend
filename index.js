@@ -12,7 +12,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 app.use(cors({
-  origin:['http://localhost:5077'],
+  origin:['https://deploy-mern-1whq.vercel.app'],
   methods:['POST','GET','DELETE','PUT'],
   credentials:true
 }))
